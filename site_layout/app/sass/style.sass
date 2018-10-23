@@ -1,0 +1,687 @@
+a, p, h1, h2, h3, h4, h5
+	text-decoration: none
+	font-family: "Open Sans"
+	font-size: 13px
+li	
+	list-style: none
+
+.container
+	position: relative
+	max-width: 1170px
+	margin: 0 auto
+
+body
+	overflow-x: hidden
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------HEADER--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+header
+	width: 100%
+	height: 100%
+	position: relative
+	background-image: url("../img/header/hed.png")
+
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	img
+		position: absolute
+		z-index: -1
+		width: 100%
+		height: 100%
+
+$hed: 9.3vh		
+
+.top_hed	
+	z-index: 998
+	position: fixed
+	width: 100%
+	height: $hed
+	background: rgba(16, 22, 54, 0.2)
+	.brand
+		line-height: $hed
+		font-family: 'Pacifico'
+		font-size: 28px
+		color: white
+		float: left
+		
+
+	.small_txt
+		margin-left: 120px 
+		width: 200px
+		height: 100%
+		line-height: $hed
+		span
+			float: left
+			margin-right: 20px
+			color: #17526f
+		p
+			color: #696f72
+
+.menu
+	position: absolute
+	top: 0
+	right: 0
+	height: $hed
+	line-height: $hed
+	li
+		display: block
+		width: 75px
+		float: left
+		text-align: center
+		transition: border-top .05s linear
+		&:hover
+			box-shadow: 0px 2px 0px 0px #32b0ee inset
+			cursor: pointer
+		a
+			padding: 3.1vh 15%
+			height: 100%
+			width: 100%
+			color: white
+
+.bt_hed
+	width: 100%
+	height: 100vh
+	position: relative
+	
+	
+
+.full_text_title_hed
+	position: absolute
+	bottom: 0
+	padding-bottom: 50px
+	width: 100%
+	p, h2, .green_text_title_hed
+		text-align: center
+		color: white
+		font-family: "Open Sans"
+		font-weight: 400
+		font-size: 48px 
+	.green_text_title_hed
+		color: #0fde96
+		font-size: 48px 
+	.brand
+		font-size: 68px
+		font-weight: 700	
+	p
+		font-size: 68px
+	.small_title_hed
+		margin: 10px auto 
+		max-width: 370px
+		position: relative
+		height: 18px
+		line-height: 18px
+		hr			
+			position: absolute
+			border: none
+			background-color: #0feb9e
+			width: 28px
+			height: 1px
+		#hr_hed_1
+			left: 0
+			top: 8px	
+		#hr_hed_2
+			right: 0
+			top: 8px	
+		p
+			color: #eaebeb
+			font-size: 18px	
+	.social
+		width: 120px
+		height: 18px
+		margin: 110px auto 0	
+		text-align: center
+		display: flex
+		justify-content: space-around
+		p		
+
+			font-size: 18px	
+			color: #566f68
+			&:hover
+				color: white
+				cursor: pointer
+
+.icon-menu, .icon_close
+	z-index: 999
+	display: none
+	position: absolute
+	color: white
+	line-height: $hed
+	top: 0
+	right: 30px
+	p
+		font-size: 30px
+
+.menu_mobile
+	@extend .menu
+	display: none
+	width: 100%;
+	background: rgba(16, 22, 54, 0.2);
+	top: 9.1vh;
+	border-top: 1px solid #0feb9e
+	height: 0px
+	overflow: hidden
+	ul
+		margin-top: 10px
+		li
+			float: none
+			line-height: 30px
+	.icon_close
+		color: white
+		float: right
+		margin-right: 20px
+		margin-top: 
+		
+
+.some_points
+	position: absolute
+	top: 45%
+	right: 1%
+	height: 90px
+	z-index: 888
+	li	
+		margin-top: 15px
+		display: block
+		width: 10px
+		height: 10px
+		border: 1px solid white
+		opacity: 0.2
+		border-radius: 50%
+		&:hover
+			background-color: white
+			opacity: 1
+			cursor: pointer
+		&.active
+			background-color: white
+			opacity: 1
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------End  HEADER--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------FEATURES--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+.title_each_block
+	p
+		margin: 0 auto
+		font-size: 28px
+		font-family: "Open Sans"
+		font-weight: 800
+		color: #0eb493
+		width: 100%
+	p
+		text-align: center
+	.line_with_heart
+		width: 233px
+		margin: 20px auto 0
+		position: relative
+		p
+			color: #dce1e5
+			font-size: 14px
+		hr	
+			background-color: #dce1e5
+			height: 1px
+			width: 90px
+			border: none
+			position: absolute
+			top: 6px
+		#first_hr
+			left: 0
+		#second_hr
+			right: 0	
+		
+					
+.features
+	padding-top: 100px
+	padding-bottom: 50px
+	height: 100%
+	width: 100%
+	background-color: #f4f7f9	
+	.title_feature
+		font-size: 20px
+		color: black
+	.item
+		height: 190px
+		.text_feature
+			max-width: 300px
+			p
+				color: #5b646e
+		.stolb
+			float: left
+			width: 60px
+			height: 100%
+			.img_feature
+				margin: 0 auto
+				width: 40px
+				height: 40px
+				img
+					height: 40px
+					width: 40px	
+.feature_items
+	margin-top: 60px
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------End  FEATURES--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------WORKS--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+.works
+	width: 100%
+	height: 100%
+	background-color: white
+	padding-top: 95px
+	.items
+		li
+			position: relative
+			&:hover
+				.see_more
+					opacity: 1
+					transition: opacity .3s linear
+					cursor: pointer
+			
+			.see_more
+				background: rgba(14, 180, 147, 0.9)
+				position: absolute
+				width: 100%
+				height: 100%
+				opacity: 0
+				p
+					text-align: center
+					font-family: "Open Sans"
+					font-size: 14px
+					font-weight: 400
+					color: white
+				.big_see_more
+					font-size: 18px
+					font-weight: 700
+					margin-bottom: 10px
+				.eye
+					margin: 90px auto 30px
+					width: 40px
+					height: 40px
+					img
+						width: 100%
+						height: 100%
+	.slids
+		width: 100%
+		height: 600px
+		ul
+			height: 600px
+			width: 400px
+			
+			li
+				width: 100%
+				height: 300px
+				img
+					height: 100%
+					width: 100%
+
+
+.title_work
+	max-width: 980px
+	margin: 40px auto 0
+	p
+		text-align: center
+		font-family: "Open Sans"
+		color: #5b646e
+		font-size: 18px 
+
+.cotegory_work
+	max-width: 500px
+	margin: 50px auto 40px
+	height: 30px
+	display: flex
+	justify-content: space-around
+	flex-wrap: wrap
+	ul
+		li
+			padding: 0 10px
+			border-radius: 6px
+			display: block
+			margin-right: 20px
+			height: 30px
+			text-align: center
+			float: left
+			&:hover
+				transition: background-color .2s linear
+				background-color: #0eb493
+				cursor: pointer
+
+		p
+			line-height: 30px
+			font-family: "Open Sans"
+			color: #062033
+			font-size: 14px 
+			font-weight: 700
+		
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------End  WORKS--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------Meet Our Team--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+.team
+	padding-top: 100px
+	padding-bottom: 120px
+	background-color: #ffffff
+	height: 100%
+	.title_team
+		width: 80%
+		margin: 35px auto 100px
+
+		p
+			color: #5b646e
+			font-size: 18px
+			text-align: center
+
+#carouselTwo
+	.owl-dots
+		margin-top: 85px
+	.item
+		
+		text-align: center
+		h2
+			margin: 20px 0 15px
+			font-weight: 700
+			font-size: 18px
+		.work
+			font-weight: 400
+			opacity: .56
+		.ava
+			position: relative
+		
+		
+			img
+				
+
+.active_person
+	opacity: 0 
+	background: rgba(14, 180, 147, 0.95)
+	position: absolute
+	width: 100%
+	height: 100%
+	padding-top: 20px
+	.instead
+		max-width: 230px
+		margin: 0 auto
+		h3
+			font-size: 16px
+			color: white	
+			font-weight: 700
+		p
+			margin: 15px 0 66px
+			font-size: 16px
+			color: white	
+			font-weight: 400
+	ul
+		width: 150px
+		margin: 0 auto
+		li
+			a
+				display: block
+				width: 40px
+				height: 40px
+				background: rgba(0, 0, 0, .3)
+				color: white
+				line-height: 40px
+				font-size: 23px
+				float: left
+				margin-left: 4px
+				&:hover
+					cursor: pointer
+					color: rgba(0, 0, 0, .6)
+					background: rgba(255, 255, 255, .5)
+
+#carouselTwo
+	.item
+		&:hover
+			.active_person
+				opacity: 1
+				transition: all .15s linear
+			h2
+				color: #30ba9c	
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------End  Meet Our Team--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////-----------FUN FACTS-----------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+.fun_facts
+	width: 100%
+	height: 100%
+	padding-bottom: 160px
+	padding-top: 100px
+	background-attachment: fixed
+	background-image: url("../img/facts/phon.png")
+	background-repeat: no-repeat
+	background-position: center top
+	background-size: cover 
+
+.blocks_fun_facts
+	padding-top: 20px
+	height: 270px
+	display: flex
+	justify-content: space-around	
+	.block
+		width: 200px
+
+		height: 100%
+.img_facts
+	margin: 0 auto
+	width: 130px
+	height: 130px
+	border-radius: 50%
+	border: 3px solid #747f83
+	.block_with_img
+		width: 38px
+		height: 38px
+		margin: 42px auto 0
+					
+.text_facts
+	p
+		color: white
+		text-align: center
+	.timer
+		margin-top: 40px
+		p
+			font-size: 60px
+			font-weight: 600
+	.title_facts
+		p
+			font-size: 18px
+			
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------End  FUN FACTS--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////----------- DISCUSS-----------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+.discuss
+	padding-top: 80px
+	width: 100%
+	height: 100%
+	background-color: white
+
+.title_discuss
+	margin-top: 38px
+	width: 100%
+	height: 100%
+	h3
+		text-align: center	
+		color: #5b646e
+		font-size: 18px
+
+.main_discuss_block
+	margin-top: 80px
+	width: 100%
+	height: 345px		
+	.contacts, .message, .social
+		float: left
+		height: 100%
+	.social
+		width: 6%
+	.contacts
+		width: 23%
+		h3
+			font-size: 22px
+			font-weight: 400
+			margin-bottom: 40px
+		p
+			font-size: 13px	
+			color: #6a737b
+
+.main_discuss_block
+	.message
+		padding-left: 3.6%
+		width: 71%	
+		input::-webkit-input-placeholder
+			font-family: "Open Sans"
+			color: #b8bbbf
+			font-size: 13px
+		input
+			padding: 20px 0 20px
+			margin-right: 3.6%
+			border: none
+			border-bottom: 1px solid #cccccc
+			font-size: 15px
+			width: 44%
+			resize: none
+			color: #656565
+			&:focus
+				outline: none
+				border-bottom: 1px solid #9d9d9d
+		#message
+			margin-top: 30px
+			width: 92%
+		p		
+			font-size: 24px
+			font-weight: 700
+	.send_message
+		width: 150px
+		margin-right: 10px
+		float: right
+		margin-top: 30px
+
+		span
+			font-size: 20px
+			color: #0eb493
+			margin-right: 5px
+		a
+			color: black		
+			font-size: 16px
+
+
+.inputs_message
+	margin-top: 30px		
+
+.main_discuss_block
+	.social
+		li
+			margin-bottom: 10px
+		a
+			color: #cdd2d6
+			font-size: 27px
+			&:hover
+				color: #a0a0a0
+				cursor: pointer
+.discuss
+	.maps		
+		margin-top: 100px
+		background-image: url("../img/discuss/maps.png")	
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		width: 100%
+		height: 220px
+		
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////--------------End  FUN DISCUSS--------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////-----------FOOTER-----------///////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+footer	
+	padding: 100px 0 
+	width: 100%
+	background-color: #37bda1
+	height: 100%
+	color: white
+	font-size: 13px
+	font-weight: 400
+	h3
+		font-size: 14px
+		font-weight: 700
+	.container
+		display: flex
+		justify-content: space-around
+		flex-wrap: wrap
+	.first-second
+	.first, .third
+		margin-right: 20px
+	.first, .second, .third, .fourth
+		height: 200px
+		width: 270px
+		float: left
+
+footer
+	.brand
+		font-family: 'Pacifico'
+		font-size: 28px
+		color: white
+	.first
+		p	
+			margin-top: 30px
+			line-height: 23px
+	.second
+		padding-top: 10px
+		input
+			margin-top: 50px
+			margin-bottom: 30px
+			background-color: transparent
+			border: 2px solid white
+			border-radius: 10px
+			font-size: 25px
+			color: #99cdc3
+			padding-bottom: 6px
+			padding-right: 17px
+			text-align: right
+			width: 100%
+			height: 46px 
+			&:hover
+				cursor: pointer
+				border: 2.4px solid white
+				color: white
+footer
+	.third
+		padding-top: 10px
+		ul
+			float: left
+			margin-top: 42px
+			margin-right: 42px
+			line-height: 32px
+			a
+				color: white
+				&:hover
+					color: #062033	
+	.fourth
+		padding: 79px  0 0 12px
+		a
+			color: white
+			&:hover
+				color: #062033
+		span
+			color: #157562
+			font-size: 15px
+			padding: 0 5px
+		.hed
+			margin-top: 60px
+			color: #062033

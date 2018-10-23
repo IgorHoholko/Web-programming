@@ -1,0 +1,76 @@
+@media (max-width: 700px){
+/*///////-------Header/////////////////*/
+.top_hed .brand {
+margin-left: 10px
+}
+.top_hed .small_txt{
+	margin-left: 100px
+}
+.menu{
+	display: none
+}
+.menu_mobile{
+	display: block;
+	}
+	.menu li{
+		line-height: 40px;
+		float: none;
+}
+
+.full_text_title_hed p, .full_text_title_hed h2, .full_text_title_hed .green_text_title_hed{
+	font-size: 30px;
+}
+.full_text_title_hed .brand{
+	font-size: 32px;
+}
+.full_text_title_hed .social{
+	margin: 40px auto 0;
+}
+.icon-menu{
+	display: block
+}
+
+/*///////-------End Header/////////////////*/
+
+/*///////-------Message/////////////////*/
+
+	.main_discuss_block .contacts, .main_discuss_block .message, .main_discuss_block .social{
+		float: none;
+		width: 100%;
+		text-align: center
+	}
+
+	.main_discuss_block {
+		height: 100%;
+		margin-top: 20px
+	}
+
+	.main_discuss_block .send_message{
+		margin: 15px auto;
+		float: none;
+	}
+
+	.main_discuss_block .contacts{
+		margin-bottom: 15px;	
+	}
+	.main_discuss_block .social{
+		margin: 0 auto 15px;
+		width: 193px;
+
+	}
+	.main_discuss_block .social li { 
+		float: left;
+		margin-right: 10px;
+	}
+/*///////-------END Message/////////////////*/	
+}
+
+
+@media (max-width: 700px){
+/*///////-------Footer/////////////////*/
+footer .first, footer .second, footer .third, footer .fourth{
+float: none;
+margin: 0 auto;
+text-align: center;
+	}
+}

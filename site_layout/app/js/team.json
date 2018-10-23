@@ -1,0 +1,62 @@
+[
+{
+	"src": "john.png",
+	"name": "John Filmr Doe",
+	"work": "Managing Director",
+	"social": [
+		"http://tvitter.com",
+		"http://facebook.com",
+		"http://google.com"
+	]
+},
+{
+	"src": "chy.png",
+	"name": "Chystine Hineu",
+	"work": "Lead Designer",
+	"social": [
+		"http://tvitter.com",
+		"http://facebook.com",
+		"http://google.com"
+	]
+},
+{
+	"src": "martin.png",
+	"name": "Martin Matrone",
+	"work": "Lead Developer",
+	"social": [
+		"http://tvitter.com",
+		"http://facebook.com",
+		"http://google.com"
+	]
+},
+{
+	"src": "steve.png",
+	"name": "Steve Flaulkin",
+	"work": "Sr. UI Designer",
+	"social": [
+		"http://tvitter.com",
+		"http://facebook.com",
+		"http://google.com"
+	]
+},
+{
+	"src": "martin.png",
+	"name": "Martin Matrone",
+	"work": "Lead Developer",
+	"social": [
+		"http://tvitter.com",
+		"http://facebook.com",
+		"http://google.com"
+	]
+},
+{
+	"src": "steve.png",
+	"name": "Steve Flaulkin",
+	"work": "Sr. UI Designer",
+	"social": [
+		"http://tvitter.com",
+		"http://facebook.com",
+		"http://google.com"
+	]
+}
+]

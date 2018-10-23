@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta name="theme-color" content="#e2f1f5">
+	<meta name="msapplication-navbutton-color" content="#e2f1f5">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#e2f1f5">
+	<link rel="shortcut icon" href="img/ic.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{{title }}</title>
+<!-- 	<script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    
+  </body>
+</html>
+ 
+
+	<link rel="stylesheet" type="text/css" href="css/fonts/fonts.css">
+	<!-- <link rel="stylesheet" href="/libs/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+	{{#if ENV_DEVELOPMENT}}
+	<script src="http://localhost:35729/livereload.js"></script>
+	{{/if}}
+</head>
+<body>
+	<header>
+
+		<div class="top_line">
+			<div class="container">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<div class="logo_text_left">
+					<a class="logo_text_left" href="/">Музыкальный канал</a>
+				</div>
+				<div class="logo_text_right">
+					<a class="logo_text_right" href="/">Лучший Музыкальынй канал</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="bottom_line">
+			<div class="container">
+				<div class="menu">
+					<ul>
+						<li><a href="/">Главная</a></li>
+						<li><a href="news">Новости</a></li>
+						<li><a href="contacts">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	{{{body}}}
+</body>
+</html>

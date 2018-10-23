@@ -1,0 +1,48 @@
+<div class="container">
+	
+	<div class="track">
+		{{#each flag}}
+		<div class="conteiner_trak">
+			<a value='  {{this.id}} ' class="play button tick">
+				<i class="fa fa-play" aria-hidden="true"></i>
+			</a>
+			<a class= "stop button tick"><i class="fa fa-pause" aria-hidden="true"></i></a>
+			<div class="name_author"> <p> {{this.name}} -</p></div>
+			<div class="title_music"> <p> {{this.music}} </p></div>
+		</div>
+		<hr>
+		{{/each}}
+	</div> 
+</div>
+<footer>
+	<div class="bottom_line_fot">
+		<div class="container">
+			<p>Все права защищены <br> © 2017</p>
+		</div>
+	</div>
+</footer>
+
+	<audio id="player" controls loop></audio>
+	<!-- 
+<div class="pet">
+	<img src="img/3.gif">
+</div>
+<div class="per">
+	<img src="img/per.png">
+</div>
+<div class="ww">
+	<img src="img/3.gif">
+</div>
+<div class="fon">
+	<img src="img/4.gif">
+</div>
+<div class="s">
+	<img src="img/5.gif">
+</div>
+<div class="s2">
+	<img src="img/5.gif">
+</div> -->
+
+<script type="text/javascript">
+</script>
+<script type="text/javascript" src="js/music.js"></script>
